@@ -77,11 +77,11 @@ WSGI_APPLICATION = 'onlineshop.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'c1769600',
-        'USER': 'c1769600',
-        'PASSWORD': 'vewpWD8XNcBA',
-        'HOST': 'csmysql.cs.cf.ac.uk',
-        'PORT': '3306',
+        'NAME': 'NAMEHERE',
+        'USER': 'USERNAMEHERE',
+        'PASSWORD': 'PASSWORDHERE',
+        'HOST': 'HOSTNAMEHERE',
+        'PORT': 'PORTNAMEHERE',
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
         },
